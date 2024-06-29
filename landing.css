@@ -1,0 +1,83 @@
+﻿.container{
+   height: 100vh;
+   width: 100%;
+   background:url(https://hercules.in/wp-content/uploads/2022/10/MicrosoftTeams-image-1.jpg););
+   background-size: cover;
+   background-position: center;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+.nav-bar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.nav-bar .title{
+   color: #ffff;
+   font-size: 67px;
+   font-weight: 600;
+   
+
+}
+span{
+   color: crimson;
+   
+}
+.nav-bar p{
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 50px;
+   color: #ffff;
+   font-size: 20px;
+   font-weight: 500;
+}
+.menu li {
+   list-style: none;
+   display: inline-block;
+}
+.menu li a{
+   text-decoration: none;
+   color: #ffff;
+   font-size: 27px;
+   font-weight: 600;
+   margin-left: 25px;
+   
+}
+.menu li a:hover{
+   color: crimson;
+   padding: 10px 20px;
+   border: 2px solid #ffff;
+
+}
+.home{
+   height: 400px;
+   padding: 70px;
+
+}
+.title{
+   font-size: 56px;
+   color: #ffff;
+   font-weight: 600;
+}
+.home p{
+   color:lemonchiffon;
+   font-size: 20px;
+   padding-top: 10px;
+
+}
+.home button{
+   height: 40px;
+   color: #ffff;
+   background-color: crimson;
+   padding: 5px 30px;
+   margin-top: 20px;
+   border: none;
+   border-radius: 5px;
+   transition: .4s ease;
+   cursor: pointer;
+}
+.home button:hover{
+   background: none;
+   border: 2px solid crimson;
+}
